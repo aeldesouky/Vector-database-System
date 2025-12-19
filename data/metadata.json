@@ -1,0 +1,62 @@
+[
+  {
+    "id": "doc_001",
+    "title": "Database Indexing Strategies",
+    "text": "Database indexing is a fundamental optimization technique used to improve query performance. Indexes allow the database engine to locate rows efficiently without scanning the entire table.\n\nCommon index structures include B-tree and hash-based indexes. B-tree indexes are balanced and support range queries, while hash indexes are optimized for equality lookups.\n\nChoosing the correct indexing strategy depends on query workload, update frequency, and storage cost."
+  },
+  {
+    "id": "doc_002",
+    "title": "ACID Transactions in Databases",
+    "text": "ACID properties define the guarantees provided by database transaction systems. Atomicity ensures all-or-nothing execution, while consistency ensures constraints are preserved.\n\nIsolation determines how concurrent transactions interact, and durability guarantees persistence after commit.\n\nModern distributed databases sometimes relax strict ACID guarantees to improve scalability."
+  },
+  {
+    "id": "doc_003",
+    "title": "Vector Embeddings Explained",
+    "text": "Vector embeddings represent data such as text or images as dense numerical vectors. These embeddings capture semantic relationships by placing similar items close together in vector space.\n\nEmbedding quality directly affects similarity search accuracy and downstream retrieval performance."
+  },
+  {
+    "id": "doc_004",
+    "title": "Similarity Metrics in Vector Search",
+    "text": "Similarity search relies on mathematical distance or similarity metrics. Cosine similarity measures angular distance, dot product measures vector alignment, and Euclidean distance measures geometric distance.\n\nEach metric has trade-offs and behaves differently depending on vector normalization."
+  },
+  {
+    "id": "doc_005",
+    "title": "Machine Learning Fundamentals",
+    "text": "Machine learning focuses on building models that learn patterns from data. Supervised learning uses labeled data, while unsupervised learning discovers structure without labels.\n\nFeature representation and data quality play a critical role in model performance."
+  },
+  {
+    "id": "doc_006",
+    "title": "Deep Learning Overview",
+    "text": "Deep learning is a subset of machine learning that uses multi-layer neural networks. These models have achieved state-of-the-art results in vision, language, and speech tasks.\n\nTraining deep models requires large datasets and significant computational resources."
+  },
+  {
+    "id": "doc_007",
+    "title": "Retrieval-Augmented Generation",
+    "text": "Retrieval-Augmented Generation combines information retrieval with text generation. Retrieved documents provide grounding context for the generation model.\n\nThis approach reduces hallucinations and improves factual accuracy."
+  },
+  {
+    "id": "doc_008",
+    "title": "University Attendance Policy",
+    "text": "Universities often enforce attendance policies to ensure student engagement. Students may be required to attend a minimum percentage of lectures.\n\nAbsences can sometimes be excused with valid documentation."
+  },
+  {
+    "id": "doc_009",
+    "title": "Library Borrowing Rules",
+    "text": "Library borrowing policies regulate access to physical and digital resources. Loan periods vary depending on user type and material category.\n\nLate returns may result in penalties."
+  },
+  {
+    "id": "doc_010",
+    "title": "Software Installation Guidelines",
+    "text": "Software installation processes vary across platforms. Users should download installers from official sources to avoid security risks.\n\nAdministrative privileges may be required for system-wide installations."
+  },
+  {
+    "id": "doc_011",
+    "title": "Operating System Basics",
+    "text": "Operating systems manage hardware resources and provide services to applications. Key components include process management, memory management, and file systems."
+  },
+  {
+    "id": "doc_012",
+    "title": "Networking Fundamentals",
+    "text": "Computer networks enable communication between devices. Core concepts include IP addressing, routing, and transport protocols such as TCP and UDP."
+  }
+]
