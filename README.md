@@ -35,20 +35,22 @@ The system is designed to be **transparent, testable, and suitable for live eval
 
 1. Create and activate a virtual environment
 
-   python -m venv .venv  
-   .\.venv\Scripts\activate
+   ```
+     python -m venv .venv  
+     .\.venv\Scripts\activate
+   ```
 
 2. Install dependencies
 
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 
 3. Run unit tests
 
-   pytest
+   `python -m pytest -v`
 
 4. Start the UI
 
-   streamlit run src/ui/app.py
+   `streamlit run src/ui/app.py`
 
 ---
 
